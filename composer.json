@@ -1,0 +1,27 @@
+{
+    "name": "pparidans/tva-com-stru",
+    "description": "Générateur de communication structurée pour la déclaration TVA belge",
+    "license": "MIT",
+    "require": {
+        "silex/silex": "~1.2",
+        "monolog/monolog": "~1.12",
+        "twig/twig": "~1.18"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "~2.1"
+    },
+    "authors": [
+        {
+            "name": "Pierre Paridans",
+            "email": "pierre@paridans.com"
+        }
+    ],
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+    	"psr-0": { 
+    		"": "src"
+    	}
+    }
+}
